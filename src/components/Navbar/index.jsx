@@ -26,42 +26,30 @@ function Navbar() {
                         </button>
                     </div>
                     <div className={`hidden lg:flex`}>
-                        <Link to="/about-us" className="my-auto mx-4 py-4 px-6 transition-colors duration-300 hover:text-gray-600" href="">
+                        <Link to="/about-us" className="my-auto mx-4 py-4 px-6 transition-colors duration-300 hover:text-gray-600" >
                             <p>
-                                About
+                                About Us
                             </p>
                         </Link>
-                        <a className="my-auto mx-4 py-4 px-6 transition-colors duration-300 hover:text-gray-600" href="">
+                        <Link to="/contact-us" className="my-auto mx-4 py-4 px-6 transition-colors duration-300 hover:text-gray-600" >
                             <p>
                                 Contact Us
                             </p>
-                        </a>
-                        <a className="my-auto mx-4 py-4 px-6 transition-colors duration-300 hover:text-gray-600" href="">
-                            <p>
-                                Contact Us
-                            </p>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className='bg-cyan-100'>
                     <div className={`mx-auto lg:hidden ${isOpen ? 'block' : 'hidden'}`}>
                         <div className='px-10 py-2'>
                             <div className='my-2 py-2'>
-                                <Link to="/about-us" className="transition-colors duration-300 hover:text-gray-600" href="">
+                                <Link to="/about-us" className="transition-colors duration-300 hover:text-gray-600" >
                                     <p>
-                                        About
+                                        About Us
                                     </p>
                                 </Link>
                             </div>
                             <div className='my-2 py-2'>
-                                <Link to="/about-us" className="transition-colors duration-300 hover:text-gray-600" href="">
-                                    <p>
-                                        Contact Us
-                                    </p>
-                                </Link>
-                            </div>
-                            <div className='my-2 py-2'>
-                                <Link to="/about-us" className="transition-colors duration-300 hover:text-gray-600" href="">
+                                <Link to="/contact-us" className="transition-colors duration-300 hover:text-gray-600" >
                                     <p>
                                         Contact Us
                                     </p>

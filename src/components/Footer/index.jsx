@@ -1,6 +1,7 @@
 import RevoImg from '../../assets/revo-horizontal.png'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -24,16 +25,13 @@ function Footer() {
                     </h4>
                     <ul className='leading-relaxed'>
                         <li className='my-2 mt-4'>
-                            <a className="hover:underline transition duration-300 ease-in-out" href="">Services</a>
+                            <Link to={"/"} className="hover:underline transition duration-300 ease-in-out" href=""><p>Home</p></Link>
                         </li>
                         <li className='my-2'>
-                            <a className="hover:underline transition duration-300 ease-in-out" href="">Portfolio</a>
+                            <Link to={"/about-us"} className="hover:underline transition duration-300 ease-in-out" href=""><p>About Us</p></Link>
                         </li>
                         <li className='my-2'>
-                            <a className="hover:underline transition duration-300 ease-in-out" href="">About Us</a>
-                        </li>
-                        <li className='my-2'>
-                            <a className="hover:underline transition duration-300 ease-in-out" href="">Contact Us</a>
+                            <Link to={"/contact-us"} className="hover:underline transition duration-300 ease-in-out" href="">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

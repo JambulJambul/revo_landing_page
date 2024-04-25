@@ -1,7 +1,7 @@
 function AboutUsVisionMission() {
     return (
         <>
-            <div className="mx-12 md:mx-24 lg:mx-48 py-12 md:py-24 lg:py-36">
+            <div className="mx-12 md:mx-24 lg:mx-48 py-12 md:py-24 lg:py-36 text-gray-600">
                 <div className="md:flex">
                     <div className="md:pr-10">
                         <h4 className='text-2xl mt-10 border-b-4 border-slate-300 '>

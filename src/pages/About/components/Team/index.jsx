@@ -3,7 +3,7 @@ import PersonIcon from '@mui/icons-material/Person';
 function AboutUsTeam() {
     return (
         <>
-            <div className="mx-12 md:mx-24 lg:mx-48 pt-12 md:pt-24 lg:pt-36">
+            <div className="mx-12 md:mx-24 lg:mx-48 pt-12 md:pt-24 lg:pt-36 text-gray-600">
                 <h3 className='text-3xl mt-10 text-center'>
                     Our Team
                 </h3>

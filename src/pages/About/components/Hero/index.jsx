@@ -3,7 +3,7 @@ import RevoLogo from '../../../../assets/revo-logo.png'
 function AboutUsHero() {
     return (
         <>
-            <div className='pt-48 text-center mx-12 md:mx-24 lg:mx-48'>
+            <div className='pt-48 text-center px-12 md:px-24 lg:px-48 bg-gradient-to-b from-cyan-100 text-gray-600'>
                 <img className='h-64 inline-block' src={RevoLogo} alt="" />
                 <h3 className='text-3xl mt-10'>
                     About Us
