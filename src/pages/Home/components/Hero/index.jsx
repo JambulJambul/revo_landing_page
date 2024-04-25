@@ -3,7 +3,7 @@ import ComputerHero from '../../../../assets/computer-hero.png'
 function HomeHero() {
     return (
         <>
-            <div className="lg:h-[75vh] bg-gradient-to-b from-cyan-100">
+            <div className="lg:h-screen bg-gradient-to-b from-cyan-100">
                 <div className="pt-48 mx-12 lg:mx-24 block lg:flex">
                     <div className="flex-1">
                         <h2 className="text-4xl my-4">
