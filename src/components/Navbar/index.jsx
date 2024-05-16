@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import RevoImg from "../../assets/revo-horizontal.png";
 import MenuIcon from '@mui/icons-material/Menu';
 import WhatsappLogo from "../../assets/whatsapp-logo.png"
@@ -6,15 +6,26 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 0);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-
     return (
         <>
-            <div className='fixed z-10 w-full'>
-                <div className="flex bg-cyan-100 justify-between px-10 py-2">
+            <div className={`fixed z-10 w-full transition duration-300 ${isScrolled ? 'bg-indigo-200' : 'bg-transparent'
+                }`}>
+                <div className="flex justify-between px-12 2xl:px-0 max-w-[1440px] mx-auto">
                     <div className="flex">
                         <Link to="/">
                             <img className="w-36" src={RevoImg} alt="revo creative company logo" />

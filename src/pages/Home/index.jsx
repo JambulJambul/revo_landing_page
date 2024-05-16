@@ -11,7 +11,7 @@ function Home() {
       <HomeHero />
       <HomeProducts />
       <HomePartners />
-      <HomeTestimonials/>
+      <HomeTestimonials />
       <HomeContactUs />
     </>
   )
