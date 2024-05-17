@@ -1,50 +1,61 @@
 import RevoImg from '../../assets/revo-horizontal.png'
 import InstagramIcon from '@mui/icons-material/Instagram';
-import EmailIcon from '@mui/icons-material/Email';
-import { Link } from 'react-router-dom';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function Footer() {
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <>
             <div className='bg-indigo-200'>
                 <div className="flex flex-col lg:flex-row gap-12 justify-around py-12 px-12 2xl:px-0 max-w-[1440px] mx-auto">
                     <div className="flex-1">
-                        <a href="">
+                        <a href="https://wa.link/fjj377" target="_blank">
                             <img className='h-24 inline-block' src={RevoImg} alt="revo creative company logo" />
                         </a>
-                        <h4 className='text-xl leading-relaxed'>
-                            Alamat Kantor
+                        <h4 className='text-xl leading-relaxed pt-4'>
+                            Office Address
                         </h4>
                         <p className='leading-relaxed'>
-                            Jl Rumah Dawe, Pondok Bambu, Jakarta Timur 13460<br />
-                            Telp. 021-8066 3030<br />
+                            Jl. Raya Pd. Gede No.14A Pinang Ranti, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta, 13560<br />
                         </p>
                     </div>
                     <div className="flex-1">
                         <h4 className='text-xl leading-relaxed'>
-                            Pages
+                            Sections
                         </h4>
                         <ul className='leading-relaxed'>
                             <li className='my-2 mt-4'>
-                                <Link to={"/"} className="hover:underline transition duration-300 ease-in-out" href=""><p>Home</p></Link>
+                                <button onClick={() => scrollToSection('HomeHero')} className="hover:underline transition duration-300 ease-in-out" href=""><p>Home</p></button>
                             </li>
                             <li className='my-2'>
-                                <Link to={"/about-us"} className="hover:underline transition duration-300 ease-in-out" href=""><p>About Us</p></Link>
+                                <button onClick={() => scrollToSection('HomeProducts')} className="hover:underline transition duration-300 ease-in-out" href=""><p>Products</p></button>
                             </li>
                             <li className='my-2'>
-                                <Link to={"/contact-us"} className="hover:underline transition duration-300 ease-in-out" href="">Contact Us</Link>
+                                <button onClick={() => scrollToSection('HomePartners')} className="hover:underline transition duration-300 ease-in-out" href="">Partners</button>
+                            </li>
+                            <li className='my-2'>
+                                <button onClick={() => scrollToSection('HomeWhyUs')} className="hover:underline transition duration-300 ease-in-out" href=""><p>Why Us</p></button>
+                            </li>
+                            <li className='my-2'>
+                                <button onClick={() => scrollToSection('HomeContactUs')} className="hover:underline transition duration-300 ease-in-out" href="">Contact Us</button>
                             </li>
                         </ul>
                     </div>
                     <div className="flex-1">
                         <h4 className='text-xl'>
-                            Follow Us
+                            Contact Us
                             <div className='flex gap-3'>
-                                <a href="">
+                                <a href="https://www.instagram.com/r.evocreative_id/">
                                     <InstagramIcon />
                                 </a>
-                                <a href="">
-                                    <EmailIcon />
+                                <a href="https://wa.link/fjj377">
+                                    <WhatsAppIcon />
                                 </a>
                             </div>
                         </h4>
