@@ -3,6 +3,7 @@ import HomePartners from './components/Partners'
 import HomeProducts from './components/Products'
 import HomeContactUs from './components/ContactUs'
 import HomeTestimonials from './components/Testimonials'
+import HomeWhyUs from './components/WhyUs'
 
 function Home() {
 
@@ -11,7 +12,8 @@ function Home() {
       <HomeHero />
       <HomeProducts />
       <HomePartners />
-      <HomeTestimonials />
+      {/* <HomeTestimonials /> */}
+      <HomeWhyUs />
       <HomeContactUs />
     </>
   )

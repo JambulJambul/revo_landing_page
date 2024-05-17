@@ -1,11 +1,11 @@
 import WikaLogo from '../../../../assets/wika-logo.png'
 import Bpjph from '../../../../assets/bpjph-logo.svg'
-import Bitmap from '../../../../assets/bitmap.png'
+import Dots from '../../../../assets/dots.png'
 
 function HomePartners() {
     return (
         <>
-            <div className='bg-slate-50' style={{ backgroundImage: `url(${Bitmap})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div className='bg-slate-50' style={{ backgroundImage: `url(${Dots})`, backgroundRepeat: 'repeat', backgroundSize: 'contain' }}>
                 <div className='max-w-[1440px] mx-auto py-10'>
                     <div className="text-center mx-12 2xl:mx-0 my-12">
                         <h2 className="text-4xl text-indigo-950">Our Esteemed Partners</h2>
