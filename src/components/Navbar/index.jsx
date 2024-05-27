@@ -87,17 +87,17 @@ function Navbar() {
                 <div className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96' : 'max-h-0'}`}>
                     <div className="mx-auto lg:hidden">
                         <div className='px-12 py-2'>
-                            <div className='my-2 py-2'>
+                            <div onClick={toggleMenu} className='my-2 py-2'>
                                 <Link to={"/"} className="transition-colors duration-300 hover:text-gray-600" href="">
                                     <p>Home</p>
                                 </Link>
                             </div>
-                            <div className='my-2 py-2'>
+                            <div onClick={toggleMenu} className='my-2 py-2'>
                                 <Link to={"/portfolio"} className="transition-colors duration-300 hover:text-gray-600">
                                     <p>Portfolio</p>
                                 </Link>
                             </div>
-                            <div className='my-2 py-2'>
+                            <div onClick={toggleMenu} className='my-2 py-2'>
                                 <Link to={"/contact-us"} className="transition-colors duration-300 hover:text-gray-600">
                                     <p>Contact Us</p>
                                 </Link>

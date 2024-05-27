@@ -1,6 +1,7 @@
 import RevoImg from '../../assets/revo-horizontal.png'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     const scrollToSection = (sectionId) => {
@@ -15,9 +16,9 @@ function Footer() {
             <div className='bg-indigo-200'>
                 <div className="flex flex-col lg:flex-row gap-12 justify-around py-12 px-12 2xl:px-0 max-w-[1440px] mx-auto">
                     <div className="flex-1">
-                        <a href="https://wa.link/fjj377" target="_blank">
+                        <Link to="/">
                             <img className='h-24 inline-block' src={RevoImg} alt="revo creative company logo" />
-                        </a>
+                        </Link>
                         <h4 className='text-xl leading-relaxed pt-4'>
                             Office Address
                         </h4>
@@ -31,19 +32,13 @@ function Footer() {
                         </h4>
                         <ul className='leading-relaxed'>
                             <li className='my-2 mt-4'>
-                                <button onClick={() => scrollToSection('HomeHero')} className="hover:underline transition duration-300 ease-in-out" href=""><p>Home</p></button>
+                                <Link to={"/"} className="hover:underline transition duration-300 ease-in-out" href=""><p>Home</p></Link>
                             </li>
                             <li className='my-2'>
-                                <button onClick={() => scrollToSection('HomeProducts')} className="hover:underline transition duration-300 ease-in-out" href=""><p>Products</p></button>
+                                <Link to={"/portfolio"} className="hover:underline transition duration-300 ease-in-out" href=""><p>Portfolio</p></Link>
                             </li>
                             <li className='my-2'>
-                                <button onClick={() => scrollToSection('HomePartners')} className="hover:underline transition duration-300 ease-in-out" href="">Partners</button>
-                            </li>
-                            <li className='my-2'>
-                                <button onClick={() => scrollToSection('HomeWhyUs')} className="hover:underline transition duration-300 ease-in-out" href=""><p>Why Us</p></button>
-                            </li>
-                            <li className='my-2'>
-                                <button onClick={() => scrollToSection('HomeContactUs')} className="hover:underline transition duration-300 ease-in-out" href="">Contact Us</button>
+                                <Link to={"/contact-us"} className="hover:underline transition duration-300 ease-in-out" href="">Contact Us</Link>
                             </li>
                         </ul>
                     </div>
@@ -51,10 +46,10 @@ function Footer() {
                         <h4 className='text-xl'>
                             Contact Us
                             <div className='flex gap-3'>
-                                <a href="https://www.instagram.com/r.evocreative_id/">
+                                <a href="https://www.instagram.com/r.evocreative_id/" target="_blank">
                                     <InstagramIcon />
                                 </a>
-                                <a href="https://wa.link/fjj377">
+                                <a href="https://wa.link/fjj377" target="_blank">
                                     <WhatsAppIcon />
                                 </a>
                             </div>

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import DefaultLogo from '../../../../assets/revo-icon-only-no-bg.png'; // Import a default logo image
 
 function PortfolioCard({ item }) {
     const [isHovered, setIsHovered] = useState(false);
+    const companyLogo = item.companyLogo || DefaultLogo; // Use DefaultLogo if item.companyLogo is null
 
     return (
         <div
@@ -18,7 +20,7 @@ function PortfolioCard({ item }) {
                 />
                 <img
                     className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300"
-                    src={item.companyLogo}
+                    src={companyLogo}
                     alt=""
                     style={{ opacity: isHovered ? 1 : 0 }}
                 />

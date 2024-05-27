@@ -1,5 +1,4 @@
 import StartBuilding from '../../../../assets/undraw_start_building_re_xani.svg' 
-import MathematicsBackground from '../../../../assets/Mathematics.svg'
 
 function HomeHero() {
     return (

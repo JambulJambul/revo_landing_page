@@ -14,7 +14,7 @@ function HomeContactUs() {
                         </div>
                         <div className="md:flex md:flex-col md:justify-center pt-10 md:pt-0">
                             <div className="transition duration-200 ease-in-out hover:transform hover:translate-y-[-5px]">
-                                <a href="">
+                                <a href="https://wa.link/fjj377" target="_blank">
                                     <div className="bg-blue-400 py-4 px-6 rounded-lg inline-block shadow-xl">
                                         <p className="text-white">
                                             Contact Us
