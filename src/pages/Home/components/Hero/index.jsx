@@ -1,9 +1,10 @@
 import StartBuilding from '../../../../assets/undraw_start_building_re_xani.svg' 
+import MathematicsBackground from '../../../../assets/Mathematics.svg'
 
 function HomeHero() {
     return (
         <>
-            <div id='HomeHero' className='bg-gradient-to-b from-indigo-300'>
+            <div id='HomeHero' className='bg-gradient-to-b from-indigo-300 to-white' >
                 <div className="lg:h-[70vh] max-w-[1440px] mx-auto ">
                     <div className="pb-24 lg:pb-0 pt-36 md:pt-40 lg:pt-48 px-12 2xl:px-0 block lg:flex">
                         <div className="flex-1">
