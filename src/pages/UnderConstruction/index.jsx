@@ -7,7 +7,7 @@ function UnderConstruction() {
             <img src={UnderConstructionImage} alt="Page Not Found" className="w-64 mb-8" />
             <h1 className="text-3xl font-bold text-indigo-950 mb-4">We're working on it!</h1>
             <p className="text-gray-600 text-center mb-8">
-                Oops! The page you are looking for is till under construction. Please check it later!.
+                Oops! The page you are looking for is still under construction. Please check it later!.
             </p>
             <Link to="/" className="text-indigo-600 hover:text-indigo-800 font-semibold">
                 Go back to the homepage
