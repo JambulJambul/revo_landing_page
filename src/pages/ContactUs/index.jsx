@@ -25,7 +25,7 @@ function ContactUs() {
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-indigo-800 to-indigo-950 bg-clip-text text-transparent mb-12 drop-shadow-md">
                     Contact Us
                 </h1>
-                <div className='lg:flex lg:gap-48'>
+                <div className='xl:flex xl:gap-48'>
                     <div className='flex-1'>
                         <div>
                             <div className='flex justify-center'>
@@ -65,7 +65,7 @@ function ContactUs() {
                             </div>
                         </div>
                     </div>
-                    <div className="text-center flex-1">
+                    <div className="text-center flex-1 py-10 xl:py-0">
                         <div className=" text-gray-700 mb-8">
                             <h3 className="text-md md:text-xl lg:text-2xl font-semibold bg-gradient-to-r from-indigo-800 to-indigo-950 bg-clip-text text-transparent mb-4">Our Address</h3>
                             <p className="text-sm lg:text-base text-center text-gray-600">Jl. Raya Pd. Gede No.14A Pinang Ranti, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta, 13560</p>
