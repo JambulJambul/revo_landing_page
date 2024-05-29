@@ -47,7 +47,7 @@ function Portfolio() {
         <>
             <div className='bg-gradient-to-b from-indigo-300 to-white'>
                 <div className="max-w-[1440px] mx-auto min-h-screen pb-24 pt-24 md:pt-32 lg:pt-40 px-12 2xl:px-0">
-                    <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-indigo-800 to-indigo-950 bg-clip-text text-transparent mb-12">Our Portfolio</h1>
+                    <h1 className="drop-shadow-md text-2xl md:text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-indigo-800 to-indigo-950 bg-clip-text text-transparent mb-12">Our Portfolio</h1>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
                         {portfolioItems.map(item => (
                             <PortfolioCard key={item.id} item={item} />

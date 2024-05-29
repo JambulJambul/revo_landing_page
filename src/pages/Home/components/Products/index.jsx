@@ -9,7 +9,7 @@ function HomeProducts() {
             <div id="HomeProducts">
                 <div className='max-w-[1440px] mx-auto pt-10 pb-24 px-12 2xl:px-0'>
                     <div className="text-center">
-                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-indigo-950">Our Services</h2>
+                        <h2 className="drop-shadow-md text-2xl md:text-3xl lg:text-4xl font-semibold text-indigo-950">Our Services</h2>
                     </div>
                     <div className="lg:px-0 pt-16 md:pt-24 lg:flex lg:gap-12 2xl:gap-0">
                         <div className='lg:flex-1 flex lg:flex-column justify-center lg:items-center'>

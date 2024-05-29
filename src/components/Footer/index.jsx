@@ -1,6 +1,7 @@
 import RevoImg from '../../assets/revo-horizontal.png'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import EmailIcon from '@mui/icons-material/Email';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -51,6 +52,9 @@ function Footer() {
                                 </a>
                                 <a href="https://wa.link/fjj377" target="_blank">
                                     <WhatsAppIcon />
+                                </a>
+                                <a href="mailto:rajawalicakradigdaya@gmail.com" target="_blank">
+                                    <EmailIcon />
                                 </a>
                             </div>
                         </h4>

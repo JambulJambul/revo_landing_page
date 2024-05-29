@@ -9,7 +9,7 @@ function HomeWhyUs() {
     return (
         <>
             <div id="HomeWhyUs" className='max-w-[1440px] mx-auto px-12 2xl:px-0 py-10'>
-                <h2 className="text-center text-2xl md:text-3xl lg:text-4xl font-semibold text-indigo-950 py-12">Why Choose Us</h2>
+                <h2 className="drop-shadow-md text-center text-2xl md:text-3xl lg:text-4xl font-semibold text-indigo-950 py-12">Why Choose Us</h2>
                 <div className="flex flex-wrap justify-center">
                     <div className="w-full md:w-1/2 lg:w-1/3 p-4 my-8 md:my-10 lg:my-12">
                         <div className="flex flex-col items-center">
