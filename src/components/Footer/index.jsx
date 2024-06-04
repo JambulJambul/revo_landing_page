@@ -1,8 +1,10 @@
-import RevoImg from '../../assets/revo-horizontal.png'
+import RevoImg from '../../assets/revo-2024-horizontal-white-zoomed-no-background.webp'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
 import { Link } from 'react-router-dom';
+import { blue } from '@mui/material/colors';
+
 
 function Footer() {
     const scrollToSection = (sectionId) => {
@@ -14,8 +16,8 @@ function Footer() {
 
     return (
         <>
-            <div className='bg-indigo-200'>
-                <div className="flex flex-col lg:flex-row gap-12 justify-around py-12 px-12 2xl:px-0 max-w-[1440px] mx-auto">
+            <div className='bg-sky-500'>
+                <div className="text-white flex flex-col lg:flex-row gap-12 justify-around py-12 px-12 2xl:px-0 max-w-[1440px] mx-auto">
                     <div className="flex-1">
                         <Link to="/">
                             <img className='h-24 inline-block' src={RevoImg} alt="revo creative company logo" />

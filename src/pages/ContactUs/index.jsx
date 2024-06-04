@@ -21,6 +21,7 @@ const defaultIcon = L.icon({
 function ContactUs() {
     return (
         <>
+            <div className='pt-16 bg-sky-500'></div>
             <div className="max-w-[1440px] mx-auto min-h-screen pb-24 pt-24 md:pt-32 lg:pt-40 px-12 2xl:px-0">
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-indigo-800 to-indigo-950 bg-clip-text text-transparent mb-12 drop-shadow-md">
                     Contact Us

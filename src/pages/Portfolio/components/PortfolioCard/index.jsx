@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import DefaultLogo from '../../../../assets/revo-icon-only-no-bg.png'; // Import a default logo image
+import DefaultLogo from '../../../../assets/revo-2024-vertical-blue-downsized.jpg'; // Import a default logo image
 
 function PortfolioCard({ item }) {
     const [isHovered, setIsHovered] = useState(false);
