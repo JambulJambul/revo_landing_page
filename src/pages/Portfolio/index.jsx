@@ -25,6 +25,7 @@ const portfolioItems = [
         subtitle: 'Management system web application',
         imgUrl: WikaUI,
         companyLogo: WikaLogo,
+        companyUrl: "https://wikarekon.co.id/id/"
     },
     {
         id: 2,
@@ -32,7 +33,7 @@ const portfolioItems = [
         subtitle: 'Directory website for halal products',
         imgUrl: BpjphUI,
         companyLogo: BpjphLogo,
-
+        companyUrl: "https://bpjph.halal.go.id/"
     },
     {
         id: 3,
@@ -40,6 +41,7 @@ const portfolioItems = [
         subtitle: 'Website landing page for higher education',
         imgUrl: AortaUI,
         companyLogo: AortaLogo,
+        companyUrl: "https://aortastan.com/"
 
     },
     {
@@ -48,6 +50,8 @@ const portfolioItems = [
         subtitle: 'Website landing page for IT provider',
         imgUrl: EliteryUI,
         companyLogo: EliteryLogo,
+        companyUrl: "https://elitery.com/"
+
     },
     {
         id: 5,
@@ -55,6 +59,7 @@ const portfolioItems = [
         subtitle: 'Microsite for investor relations',
         imgUrl: IrEliteryUI,
         companyLogo: EliteryLogo,
+        companyUrl: "https://ir.elitery.com"
 
     },
     {
@@ -63,6 +68,7 @@ const portfolioItems = [
         subtitle: 'Microsite for investor relations',
         imgUrl: ElicoveryUI,
         companyLogo: EliteryLogo,
+        companyUrl: "https://elicovery.elitery.com"
 
     },
     {
@@ -71,6 +77,7 @@ const portfolioItems = [
         subtitle: 'Website for online yasin e-book creation',
         imgUrl: MunajatUI,
         companyLogo: MunajatLogo,
+        companyUrl: "https://munajat.id/"
 
     },
     {
@@ -79,6 +86,7 @@ const portfolioItems = [
         subtitle: 'Android App for TBC survivor',
         imgUrl: TbWarriorUi,
         companyLogo: TbWarriorLogo,
+        companyUrl: "https://tbwarrior.id/"
 
     },
     {
@@ -87,6 +95,7 @@ const portfolioItems = [
         subtitle: 'Website landing page for daycare',
         imgUrl: NurfahmiDaycareUI,
         companyLogo: NurfahmiLogo,
+        companyUrl: "https://nurfahmidaycare.com/"
 
     },
     {
@@ -95,6 +104,8 @@ const portfolioItems = [
         subtitle: 'Android and iOS catering application',
         imgUrl: DapurEmakUI,
         companyLogo: null,
+        companyUrl: null
+        
     },
 ];
 
