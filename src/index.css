@@ -7,14 +7,29 @@ html {
 }
 
 .no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
 
-.leaflet-control { z-index: 0 !important}
-.leaflet-pane { z-index: 0 !important}
-.leaflet-top, .leaflet-bottom {z-index: 0 !important}
+.leaflet-control {
+    z-index: 0 !important
+}
+
+.leaflet-pane {
+    z-index: 0 !important
+}
+
+.leaflet-top,
+.leaflet-bottom {
+    z-index: 0 !important
+}
+
+.marquee-item{
+    margin: 0px 50px;
+}

@@ -9,7 +9,7 @@ import IrEliteryUI from '../../assets/ir-elitery.png'
 import ElicoveryUI from '../../assets/elicovery.png'
 import MunajatUI from '../../assets/munajat-ui.png'
 import TbWarriorUi from '../../assets/tbwarrior.png'
-import WikaLogo from '../../assets/wika-logo.png';
+import WikaLogo from '../../assets/wika-rekon-logo.jpg';
 import BpjphLogo from '../../assets/bpjph-logo.svg'
 import NurfahmiLogo from '../../assets/nurfahmi-logo.png'
 import AortaLogo from '../../assets/aortastan-logo.png'
