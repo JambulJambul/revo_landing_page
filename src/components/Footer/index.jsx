@@ -49,7 +49,7 @@ function Footer() {
                         <h4 className='text-xl'>
                             Contact Us
                             <div className='flex gap-3'>
-                                <a href="https://www.instagram.com/r.evocreative_id/" target="_blank">
+                                <a href="https://www.instagram.com/revocreative_id/" target="_blank">
                                     <InstagramIcon />
                                 </a>
                                 <a href="https://wa.link/fjj377" target="_blank">

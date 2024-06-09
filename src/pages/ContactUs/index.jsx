@@ -44,7 +44,7 @@ function ContactUs() {
                                     </a>
                                 </div>
                                 <div className="transition duration-200 ease-in-out hover:transform hover:translate-y-[-5px] flex justify-center my-8">
-                                    <a href="https://www.instagram.com/r.evocreative_id/" target="_blank" className='w-full'>
+                                    <a href="https://www.instagram.com/revocreative_id/" target="_blank" className='w-full'>
                                         <div className="bg-blue-400 py-4 px-6 rounded-lg shadow-xl">
                                             <div className='flex items-center justify-center'>
                                                 <InstagramIcon sx={{ color: indigo[50] }} fontSize="large" />
