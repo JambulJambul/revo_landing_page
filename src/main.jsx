@@ -5,7 +5,10 @@ import App from './routes/index.jsx'
 import Navbar from './components/Navbar/index.jsx'
 import Footer from './components/Footer/index.jsx'
 import ScrollToTop from './utils/ScrollToTop/index.jsx';
+import ReactGA from "react-ga4";
 import './index.css'
+
+ReactGA.initialize("G-S60P6EBJFJ");
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -8,6 +8,8 @@ import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { indigo } from '@mui/material/colors';
+import ReactGA from "react-ga4";
+
 
 const defaultIcon = L.icon({
     iconUrl: markerIconPng,
@@ -19,6 +21,13 @@ const defaultIcon = L.icon({
 });
 
 function ContactUs() {
+    ReactGA.send(
+        {
+            hitType: "pageview",
+            page: "/contact-us",
+            title: "Contact Us Page"
+        }
+    );
     return (
         <>
             <div className='pt-16 bg-sky-500'></div>

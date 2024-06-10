@@ -16,7 +16,7 @@ import AortaLogo from '../../assets/aortastan-logo.png'
 import EliteryLogo from '../../assets/ELITERY-LOGO-Black-2022.png'
 import MunajatLogo from '../../assets/munajat-logo.webp'
 import TbWarriorLogo from '../../assets/tbwarrior-logo.webp'
-
+import ReactGA from "react-ga4";
 
 const portfolioItems = [
     {
@@ -105,12 +105,18 @@ const portfolioItems = [
         imgUrl: DapurEmakUI,
         companyLogo: null,
         companyUrl: null
-        
+
     },
 ];
 
 function Portfolio() {
-
+    ReactGA.send(
+        {
+            hitType: "pageview",
+            page: "/portfolio",
+            title: "Portfolio Page"
+        }
+    );
     return (
         <>
             <div className='bg-gradient-to-b from-sky-500 to-white'>
