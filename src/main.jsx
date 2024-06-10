@@ -10,6 +10,11 @@ import './index.css'
 
 ReactGA.initialize("G-S60P6EBJFJ");
 
+ReactGA.send({
+  hitType: "pageview",
+  page: window.location.pathname
+})
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
