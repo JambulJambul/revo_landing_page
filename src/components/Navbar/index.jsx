@@ -3,15 +3,20 @@ import RevoImg from "../../assets/revo-2024-horizontal-white-zoomed-no-backgroun
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 import { blue } from '@mui/material/colors';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    }
 
     useEffect(() => {
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 0);
         };
+
 
         const handleResize = () => {
             if (window.innerWidth >= 1024) {
@@ -52,7 +57,7 @@ function Navbar() {
                     </div>
                     <div className="lg:hidden my-auto">
                         <button onClick={toggleMenu} className="flex items-center px-3 py-2 border rounded text-gray-600 border-gray-600 hover:text-gray-800 hover:border-gray-800 border-none">
-                            <MenuIcon sx={{ color: blue[50] }}/>
+                            <MenuIcon sx={{ color: blue[50] }} />
                         </button>
                     </div>
                     <div className={`hidden lg:flex`}>
@@ -106,6 +111,9 @@ function Navbar() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div onClick={scrollToTop} className='cursor-pointer fixed z-10 text-right right-16 bottom-16 lg:right-32 lg:bottom-32 inline-block bg-sky-500 rounded-full p-4'>
+                <ArrowUpwardIcon sx={{ color: blue[50] }} />
             </div>
         </>
     );
