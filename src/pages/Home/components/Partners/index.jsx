@@ -1,4 +1,4 @@
-import WikaLogo from '../../../../assets/wika-rekon-logo-removebg.webp';
+// import WikaLogo from '../../../../assets/wika-rekon-logo-removebg.webp';
 import BpjphLogo from '../../../../assets/bpjph-logo.svg'
 import NurfahmiLogo from '../../../../assets/nurfahmi-logo.png'
 import AortaLogo from '../../../../assets/aortastan-logo-removebg.webp'
@@ -17,13 +17,13 @@ function HomePartners() {
                     <div className="text-center py-12">
                         <h2 className="drop-shadow-md text-2xl md:text-3xl lg:text-4xl font-semibold text-indigo-950">Our Esteemed Partners</h2>
                         <Marquee pauseOnHover={true} autoFill={true} className='pt-12'>
-                            <LogoItem href={"https://wikarekon.co.id/id/"} src={WikaLogo} alt={"Wika Rekon Logo"} />
-                            <LogoItem href={"https://bpjph.halal.go.id/"} src={BpjphLogo} alt={"Wika Rekon Logo"} />
-                            <LogoItem href={"https://nurfahmidaycare.com/"} src={NurfahmiLogo} alt={"Wika Rekon Logo"} />
-                            <LogoItem href={"https://aortastan.com/"} src={AortaLogo} alt={"Wika Rekon Logo"} />
-                            <LogoItem href={"https://elitery.com/"} src={EliteryLogo} alt={"Wika Rekon Logo"} />
-                            <LogoItem href={"https://munajat.id/"} src={MunajatLogo} alt={"Wika Rekon Logo"} />
-                            <LogoItem href={"https://tbwarrior.id/"} src={TbWarriorLogo} alt={"Wika Rekon Logo"} />
+                            {/* <LogoItem href={"https://wikarekon.co.id/id/"} src={WikaLogo} alt={"Wika Rekon Logo"} /> */}
+                            <LogoItem href={"https://bpjph.halal.go.id/"} src={BpjphLogo} alt={"BPJPH Badan Penyelenggara Jaminan Produk Halal "} />
+                            <LogoItem href={"https://nurfahmidaycare.com/"} src={NurfahmiLogo} alt={"Nurfahmi Daycare"} />
+                            <LogoItem href={"https://aortastan.com/"} src={AortaLogo} alt={"Aorta Stan"} />
+                            <LogoItem href={"https://elitery.com/"} src={EliteryLogo} alt={"E-Litery"} />
+                            <LogoItem href={"https://munajat.id/"} src={MunajatLogo} alt={"Munajat"} />
+                            <LogoItem href={"https://tbwarrior.id/"} src={TbWarriorLogo} alt={"TB Warrior"} />
                         </Marquee>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 import PortfolioCard from './components/PortfolioCard';
 import DapurEmakUI from '../../assets/dapur-emak.png'
 import NurfahmiDaycareUI from '../../assets/nurfahmi-daycare.png'
-import WikaUI from '../../assets/wika-ui.jpg'
+// import WikaUI from '../../assets/wika-ui.jpg'
 import BpjphUI from '../../assets/bpjph-ui.png'
 import AortaUI from '../../assets/aortastan.png'
 import EliteryUI from '../../assets/elitery.png'
@@ -9,7 +9,7 @@ import IrEliteryUI from '../../assets/ir-elitery.png'
 import ElicoveryUI from '../../assets/elicovery.png'
 import MunajatUI from '../../assets/munajat-ui.png'
 import TbWarriorUi from '../../assets/tbwarrior.png'
-import WikaLogo from '../../assets/wika-rekon-logo.jpg';
+// import WikaLogo from '../../assets/wika-rekon-logo.jpg';
 import BpjphLogo from '../../assets/bpjph-logo.svg'
 import NurfahmiLogo from '../../assets/nurfahmi-logo.png'
 import AortaLogo from '../../assets/aortastan-logo.png'
@@ -19,14 +19,14 @@ import TbWarriorLogo from '../../assets/tbwarrior-logo.webp'
 import ReactGA from "react-ga4";
 
 const portfolioItems = [
-    {
-        id: 1,
-        title: 'Wika Rekon Koperasi',
-        subtitle: 'Management system web application',
-        imgUrl: WikaUI,
-        companyLogo: WikaLogo,
-        companyUrl: "https://wikarekon.co.id/id/"
-    },
+    // {
+    //     id: 1,
+    //     title: 'Wika Rekon Koperasi',
+    //     subtitle: 'Management system web application',
+    //     imgUrl: WikaUI,
+    //     companyLogo: WikaLogo,
+    //     companyUrl: "https://wikarekon.co.id/id/"
+    // },
     {
         id: 2,
         title: 'Kamus Halal BPJPH',
@@ -63,7 +63,7 @@ const portfolioItems = [
 
     },
     {
-        id: 5,
+        id: 6,
         title: 'Elicovery',
         subtitle: 'Microsite for investor relations',
         imgUrl: ElicoveryUI,
@@ -72,7 +72,7 @@ const portfolioItems = [
 
     },
     {
-        id: 5,
+        id: 7,
         title: 'Munajat',
         subtitle: 'Website for online yasin e-book creation',
         imgUrl: MunajatUI,
@@ -81,7 +81,7 @@ const portfolioItems = [
 
     },
     {
-        id: 5,
+        id: 8,
         title: 'TB Warrior',
         subtitle: 'Android App for TBC survivor',
         imgUrl: TbWarriorUi,
@@ -90,7 +90,7 @@ const portfolioItems = [
 
     },
     {
-        id: 6,
+        id: 9,
         title: 'Nurfahmi Daycare',
         subtitle: 'Website landing page for daycare',
         imgUrl: NurfahmiDaycareUI,
@@ -99,7 +99,7 @@ const portfolioItems = [
 
     },
     {
-        id: 7,
+        id: 10,
         title: 'Dapur Emak Ponkel',
         subtitle: 'Android and iOS catering application',
         imgUrl: DapurEmakUI,
@@ -134,5 +134,3 @@ function Portfolio() {
 }
 
 export default Portfolio;
-
-{/* <div className='bg-indigo-200' style={{ backgroundImage: `url(${DustBackground})`, backgroundRepeat: 'repeat', backgroundSize: 'contain' }}></div> */ }
